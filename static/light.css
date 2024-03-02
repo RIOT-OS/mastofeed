@@ -1,9 +1,9 @@
 html,
 body {
   background-color: #ffffff;
-  font-family: 'Roboto', roboto, Arial, sans-serif;
-  color: #282c37;
-  font-weight: lighter;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(68, 68, 68);
+  font-weight: 400;
   overflow-x: hidden;
   font-size: 100%;
   word-break: break-word; }
@@ -14,7 +14,7 @@ body {
 
 a,
 a * {
-  color: #2b90d9; }
+  color: #40a687; }
 
 .meta {
   background-color: #ecf0f4; }
@@ -42,6 +42,7 @@ a * {
     padding: 0.9rem;
     background: rgba(255, 255, 255, 0.85); }
   .header .header-title {
+    font-weight: bolder;
     font-size: 1.3rem; }
 
 .item {
@@ -86,10 +87,9 @@ a * {
   justify-content: space-around; }
   .author-info .author-displayname {
     font-size: 1.2rem;
-    color: #282c37;
+    color: rgb(68, 68, 68);
     text-decoration: none;
-    display: block;
-    font-weight: bolder; }
+    display: block; }
 
 .avatar {
   width: 3rem;
